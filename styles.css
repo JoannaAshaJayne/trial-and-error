@@ -77,6 +77,10 @@ nav a:hover::before {
 
 /* column system */ 
 
+.newspaper {
+  column-count: 3;
+}
+
 .clearfix::after,
 section::after,
 footer::after {
@@ -102,7 +106,7 @@ footer::after {
   [class^=col-]:first-child{
     padding-left 0;
   }
-  
+
   [class^=col-]:last-child{
     padding-left 0;
   }
